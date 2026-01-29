@@ -1,0 +1,41 @@
+# ============ Jupyter Notebook ============
+# 检查点目录（所有位置）
+**/.ipynb_checkpoints/
+
+# 临时文件和自动保存
+*.ipynb.autosave
+*.ipynb~          # 一些编辑器的备份文件
+
+# Jupyter 配置和缓存
+.jupyter/
+.nbsafety/        # JupyterLab 安全检查
+
+# ============ 数据文件 ============
+# 大型数据集（如果太大不适合放 Git）
+data/raw/
+data/processed/
+*.h5
+*.hdf5
+*.feather
+*.parquet
+
+# ============ 模型文件 ============
+models/
+*.pkl
+*.pickle
+*.pth
+*.pt
+
+# ============ Python 环境 ============
+.env
+.venv/
+venv/
+env/
+
+# ============ IDE ============
+.vscode/
+.idea/
+
+# ============ 系统文件 ============
+.DS_Store
+Thumbs.db
